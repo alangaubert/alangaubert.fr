@@ -1,58 +1,96 @@
 <!DOCTYPE html>
 <html lang="fr">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Projets | Alan Gaubert</title>
-		<meta name="description" content="Sélection de projets d'Alan Gaubert : réalisations techniques, objectifs et technologies utilisées." />
-		<meta name="author" content="Alan Gaubert" />
-		<meta name="robots" content="index,follow" />
-		<meta name="theme-color" content="#222222" />
-		<link rel="canonical" href="https://alangaubert.github.io/projets.html" />
-		<meta property="og:type" content="website" />
-		<meta property="og:locale" content="fr_FR" />
-		<meta property="og:site_name" content="Portfolio | Alan Gaubert" />
-		<meta property="og:title" content="Projets | Alan Gaubert" />
-		<meta property="og:description" content="Retrouvez mes projets réalisés pendant mes études et en autonomie." />
-		<meta property="og:url" content="https://alangaubert.github.io/projets.html" />
-		<meta property="og:image" content="https://i.ibb.co/GQgfWWyQ/photo-concert.png" />
-		<meta name="twitter:card" content="summary_large_image" />
-		<meta name="twitter:title" content="Projets | Alan Gaubert" />
-		<meta name="twitter:description" content="Projets techniques, objectifs et stack utilisée." />
-		<meta name="twitter:image" content="https://i.ibb.co/GQgfWWyQ/photo-concert.png" />
-		<link rel="stylesheet" href="styles/css/style.css" />
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-	</head>
-	<body>
-		<header>
-			<nav>
-			  <a class="logo" href="index.html">Mon Portfolio</a>
-			  <ul class="nav-links">
-				<li><a href="parcours.html">Parcours</a></li>
-				<li><a href="projets.html">Projets</a></li>
-				<li><a href="photographie.html">Photographie</a></li>
-			  </ul>
-			</nav>
-		  </header>
-		<main>
-			<section class="section-block projets-section">
-				<h1>Mes projets</h1>
-				<p class="projets-intro">Voici une sélection de projets réalisés durant mes études, en autonomie ou en équipe. Cliquez sur un projet pour en savoir plus ou accéder au code source.</p>
-				<div class="projets-grid">
-					<!-- Exemple de carte projet -->
-					<div class="projet-card">
-						<h2>Nom du projet</h2>
-						<p class="projet-desc">Courte description du projet, technologies utilisées, objectifs, etc.</p>
-						<a href="#" class="projet-link" target="_blank">Voir le projet</a>
-					</div>
-					<!-- Ajoute d'autres projets ici -->
-				</div>
-			</section>
-		</main>
-		<footer>
-			<p>&copy; 2025 Alan Gaubert. Tous droits réservés.</p>
-		</footer>
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projets | Alan Gaubert - Homelab &amp; Plus Info</title>
+    <meta name="description" content="Projets et réalisations d'Alan Gaubert : Homelab auto-hébergé sous Docker (Pi-hole, WireGuard, Nginx Proxy Manager) et auto-entreprise Plus Info (prestations informatiques et réseaux)." />
+    <meta name="author" content="Alan Gaubert" />
+    <meta name="robots" content="index,follow" />
+    <meta name="theme-color" content="#0B0F19" />
+    <link rel="canonical" href="https://alangaubert.github.io/projets.html" />
+
+    <!-- Open Graph (Facebook / LinkedIn) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:site_name" content="Portfolio | Alan Gaubert" />
+    <meta property="og:title" content="Projets | Alan Gaubert - Homelab &amp; Plus Info" />
+    <meta property="og:description" content="Découvrez mes réalisations techniques : déploiement d'un Homelab résilient et gestion de l'auto-entreprise Plus Info." />
+    <meta property="og:url" content="https://alangaubert.github.io/projets.html" />
+    <meta property="og:image" content="https://i.ibb.co/GQgfWWyQ/photo-concert.png" />
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Projets | Alan Gaubert - Homelab &amp; Plus Info" />
+    <meta name="twitter:description" content="Projets techniques, stack utilisée et réalisations concrètes en réseaux et informatique." />
+    <meta name="twitter:image" content="https://i.ibb.co/GQgfWWyQ/photo-concert.png" />
+
+    <!-- Stylesheets et typographies -->
+    <link rel="stylesheet" href="styles/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- En-tête et navigation principale -->
+    <header>
+      <nav aria-label="Navigation principale">
+        <a class="logo" href="index.html" aria-label="Page d'accueil du Portfolio d'Alan Gaubert">Mon Portfolio</a>
+        <ul class="nav-links">
+          <li><a href="parcours.html">Parcours</a></li>
+          <li><a href="projets.html" class="active" aria-current="page">Projets</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <!-- Section Réalisations et Projets -->
+      <section class="section-block projets-section" aria-labelledby="projets-title">
+        <h1 id="projets-title">Mes projets</h1>
+        <p class="projets-intro">Voici une sélection de projets réalisés durant mes études, en autonomie ou en entreprise. Cliquez sur un projet pour en savoir plus ou accéder aux ressources.</p>
+
+        <div class="projets-grid">
+          <!-- Carte Projet 1 : Homelab -->
+          <article class="projet-card" aria-labelledby="projet-homelab-title">
+            <h2 id="projet-homelab-title">Création de mon Homelab</h2>
+            <p class="projet-desc">
+              Mise en place d'une infrastructure locale et résiliente à domicile, entièrement assemblée à partir de matériel informatique reconditionné. L'environnement repose sur Linux et utilise Docker pour la conteneurisation des différents micro-services. Déploiement de solutions auto-hébergées incluant Pi-hole pour le filtrage et la protection DNS, Nginx Proxy Manager pour le routage reverse-proxy et la gestion automatisée des certificats SSL (Let's Encrypt), ainsi qu'un tunnel VPN WireGuard permettant un accès à distance sécurisé à l'ensemble du réseau local.
+            </p>
+            <div class="projet-tags" aria-label="Technologies du projet Homelab">
+              <span class="projet-tag">Docker</span>
+              <span class="projet-tag">WireGuard</span>
+              <span class="projet-tag">Pi-hole</span>
+              <span class="projet-tag">Nginx Proxy Manager</span>
+              <span class="projet-tag">Linux / Self-hosted</span>
+              <span class="projet-tag">Hardware reconditionné</span>
+            </div>
+            <a href="https://github.com/alangaubert" class="projet-link" target="_blank" rel="noopener noreferrer" aria-label="Consulter les dépôts du projet Homelab sur GitHub (nouvel onglet)">Consulter sur GitHub</a>
+          </article>
+
+          <!-- Carte Projet 2 : Auto-entreprise Plus Info -->
+          <article class="projet-card" aria-labelledby="projet-plusinfo-title">
+            <h2 id="projet-plusinfo-title">Auto-entreprise « Plus Info »</h2>
+            <p class="projet-desc">
+              Fondation et développement de mon auto-entreprise « Plus Info », une structure spécialisée dans l'accompagnement, la maintenance informatique, les solutions réseaux et le conseil technique pour particuliers et professionnels. Un projet entrepreneurial concret alliant expertise technique et sens du service client.
+            </p>
+            <div class="projet-tags" aria-label="Domaines de compétences Plus Info">
+              <span class="projet-tag">Entrepreneuriat</span>
+              <span class="projet-tag">Prestations IT</span>
+              <span class="projet-tag">Dépannage &amp; Maintenance</span>
+              <span class="projet-tag">Réseaux</span>
+            </div>
+            <a href="https://www.plusinfo.fr" class="projet-link" target="_blank" rel="noopener noreferrer" aria-label="Visiter le site officiel de l'auto-entreprise Plus Info (nouvel onglet)">Visiter le site</a>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <!-- Pied de page avec Copyright dynamique -->
+    <footer>
+      <p>&copy; <span id="year"></span> Alan Gaubert - Tous droits réservés.</p>
+    </footer>
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
 </html>
