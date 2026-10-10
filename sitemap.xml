@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://alangaubert.github.io/</loc>
-    <lastmod>2026-10-07</lastmod>
+    <loc>https://www.alangaubert.fr/</loc>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://alangaubert.github.io/parcours.html</loc>
-    <lastmod>2026-10-07</lastmod>
+    <loc>https://www.alangaubert.fr/parcours.html</loc>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://alangaubert.github.io/projets.html</loc>
-    <lastmod>2026-10-07</lastmod>
+    <loc>https://www.alangaubert.fr/projets.html</loc>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
